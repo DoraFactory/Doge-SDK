@@ -1,0 +1,28 @@
+[package]
+name = "auth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gears = { path = "../../gears" }
+store = { path = "../../store" }
+database = { path = "../../database" }
+proto-types = { path = "../../proto-types" }
+proto-messages = { path = "../../proto-messages" }
+ibc-proto = { git = "https://github.com/joneskm/ibc-proto-rs" }
+bytes = "1.2.1"
+serde = { version = "1.0", default-features = false }
+#params-module = { package = "params", path = "../params" }
+serde-aux = "4.2.0"
+prost = { version = "0.11" }
+tendermint-proto = { git = "https://github.com/VegeBun-csj/tendermint-rs" }
+anyhow = "1.0.70"
+clap = { version = "4.2.2", features = ["derive"] }
+tendermint-rpc = { git = "https://github.com/VegeBun-csj/tendermint-rs", features = [
+    "http-client",
+] }
+tokio = { version = "1.27.0", features = ["full"] }
+serde_json = "1.0.93"
+
+[dev-dependencies]
+hex = "0.4.3"

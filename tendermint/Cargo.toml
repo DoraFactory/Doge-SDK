@@ -1,0 +1,15 @@
+[package]
+name = "tendermint"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "1.0.13"
+tendermint-config = { git = "https://github.com/VegeBun-csj/tendermint-rs" }
+serde_json = "1.0.93"
+handlebars = "4.3.6"
+tendermint_crates = { package = "tendermint", git = "https://github.com/VegeBun-csj/tendermint-rs" }
+rand = "0.8"
+ed25519-consensus = { version = "2" }
+
+[dev-dependencies]

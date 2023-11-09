@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "proto-types",
+    "proto-messages",
+    "gears",
+    "trees",
+    "database",
+    "tendermint",
+    "gaia-rs",
+    "store",
+    "network",
+    "x/bank",
+    "x/auth",
+]
