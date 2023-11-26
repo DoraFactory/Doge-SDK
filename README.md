@@ -7,7 +7,7 @@ Doge SDK is mainly used to start a cosmos-sdk-based blockchain in rust. Due to t
 ### Architecture
 The following is the general architecture of our designed implementation of Doge SDK.
 
-![image](https://hackmd.io/_uploads/rJ2zE_eSp.png)
+![image](https://hackmd.io/_uploads/rySDd-BNp.png)
 
 
 ### Requirements
