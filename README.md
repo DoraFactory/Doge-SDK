@@ -2,7 +2,7 @@
 Cosmos Rust SDK for Dear Doge
 
 ## Interview
-Doge SDK is mainly used to start a cosmos-sdk-based blockchain in rust. Due to the fact that Cosmos SDK currently only has Go language version, we have implemented a Rust version of the Cosmos SDK to meet the requirements for different consensus mechanisms(the Go version of the Cosmos SDK is tightly coupled with the tendermint consensus, we have also implemented a separate SDK for starting the application, which is decoupled from the consensus layer). This allows us to test Rust-based consensus mechanisms more effectively.
+Doge SDK is mainly used to start a cosmos-sdk-based blockchain in rust. Due to the fact that Cosmos SDK currently only has Go language version, we have implemented a Rust version of the Cosmos SDK to meet the requirements for different consensus mechanisms(the Go version of the Cosmos SDK is tightly coupled with the tendermint consensus, we have also implemented a separate SDK for starting the application, which is decoupled from the consensus layer). This allows us to test Rust-based consensus mechanisms more effectively. Here, we thank the contributions and inspiration from the [gears](https://github.com/rumos-io/gears). We have made some adaptations and improvements to gears to accommodate other consensus mechanisms.
 
 ### Architecture
 The following is the general architecture of our designed implementation of Doge SDK.
